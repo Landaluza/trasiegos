@@ -82,6 +82,78 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCantidad.Designer.vb">
+      <DependentUpon>frmCantidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCantidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnviado.Designer.vb">
+      <DependentUpon>frmEnviado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnviado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCorrecto.Designer.vb">
+      <DependentUpon>frmCorrecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCorrecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCorreo.Designer.vb">
+      <DependentUpon>frmCorreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCorreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinSeleccion.Designer.vb">
+      <DependentUpon>frmFinSeleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinSeleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLote.Designer.vb">
+      <DependentUpon>frmLote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmniveles.Designer.vb">
+      <DependentUpon>frmniveles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmniveles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperacionesPendientes.Designer.vb">
+      <DependentUpon>frmOperacionesPendientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperacionesPendientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmREsumenNiveles.Designer.vb">
+      <DependentUpon>frmREsumenNiveles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmREsumenNiveles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDespositoDestino.Designer.vb">
+      <DependentUpon>frmDespositoDestino.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDespositoDestino.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResumenTrasiegos.Designer.vb">
+      <DependentUpon>frmResumenTrasiegos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResumenTrasiegos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtrasiegos.Designer.vb">
+      <DependentUpon>frmtrasiegos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmtrasiegos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -101,6 +173,42 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCantidad.resx">
+      <DependentUpon>frmCantidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnviado.resx">
+      <DependentUpon>frmEnviado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCorrecto.resx">
+      <DependentUpon>frmCorrecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCorreo.resx">
+      <DependentUpon>frmCorreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinSeleccion.resx">
+      <DependentUpon>frmFinSeleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLote.resx">
+      <DependentUpon>frmLote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmniveles.resx">
+      <DependentUpon>frmniveles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperacionesPendientes.resx">
+      <DependentUpon>frmOperacionesPendientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmREsumenNiveles.resx">
+      <DependentUpon>frmREsumenNiveles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDespositoDestino.resx">
+      <DependentUpon>frmDespositoDestino.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResumenTrasiegos.resx">
+      <DependentUpon>frmResumenTrasiegos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtrasiegos.resx">
+      <DependentUpon>frmtrasiegos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
